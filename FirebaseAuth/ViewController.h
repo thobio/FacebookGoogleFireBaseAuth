@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Firebase;
+@import GoogleSignIn;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GIDSignInUIDelegate,UITextFieldDelegate>
+- (IBAction)signOutButton:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UITextField *emailIdTF;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTF;
+- (IBAction)emailSiginAction:(id)sender;
 
 @end
 
