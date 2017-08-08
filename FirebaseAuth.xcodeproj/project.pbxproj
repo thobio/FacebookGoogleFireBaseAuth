@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8F0B08A1F39907A00ACFE67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0B0891F39907A00ACFE67 /* main.m */; };
+		C8F0B08D1F39907A00ACFE67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0B08C1F39907A00ACFE67 /* AppDelegate.m */; };
+		C8F0B0901F39907A00ACFE67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0B08F1F39907A00ACFE67 /* ViewController.m */; };
+		C8F0B0931F39907A00ACFE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F0B0911F39907A00ACFE67 /* Main.storyboard */; };
+		C8F0B0951F39907A00ACFE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F0B0941F39907A00ACFE67 /* Assets.xcassets */; };
+		C8F0B0981F39907B00ACFE67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F0B0961F39907B00ACFE67 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8F0B0851F39907A00ACFE67 /* FirebaseAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F0B0891F39907A00ACFE67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8F0B08B1F39907A00ACFE67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8F0B08C1F39907A00ACFE67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8F0B08E1F39907A00ACFE67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8F0B08F1F39907A00ACFE67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8F0B0921F39907A00ACFE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8F0B0941F39907A00ACFE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8F0B0971F39907B00ACFE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8F0B0991F39907B00ACFE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8F0B0821F39907A00ACFE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8F0B07C1F39907A00ACFE67 = {
+			isa = PBXGroup;
+			children = (
+				C8F0B0871F39907A00ACFE67 /* FirebaseAuth */,
+				C8F0B0861F39907A00ACFE67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8F0B0861F39907A00ACFE67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8F0B0851F39907A00ACFE67 /* FirebaseAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8F0B0871F39907A00ACFE67 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				C8F0B08B1F39907A00ACFE67 /* AppDelegate.h */,
+				C8F0B08C1F39907A00ACFE67 /* AppDelegate.m */,
+				C8F0B08E1F39907A00ACFE67 /* ViewController.h */,
+				C8F0B08F1F39907A00ACFE67 /* ViewController.m */,
+				C8F0B0911F39907A00ACFE67 /* Main.storyboard */,
+				C8F0B0941F39907A00ACFE67 /* Assets.xcassets */,
+				C8F0B0961F39907B00ACFE67 /* LaunchScreen.storyboard */,
+				C8F0B0991F39907B00ACFE67 /* Info.plist */,
+				C8F0B0881F39907A00ACFE67 /* Supporting Files */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		C8F0B0881F39907A00ACFE67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8F0B0891F39907A00ACFE67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8F0B0841F39907A00ACFE67 /* FirebaseAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8F0B09C1F39907B00ACFE67 /* Build configuration list for PBXNativeTarget "FirebaseAuth" */;
+			buildPhases = (
+				C8F0B0811F39907A00ACFE67 /* Sources */,
+				C8F0B0821F39907A00ACFE67 /* Frameworks */,
+				C8F0B0831F39907A00ACFE67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseAuth;
+			productName = FirebaseAuth;
+			productReference = C8F0B0851F39907A00ACFE67 /* FirebaseAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8F0B07D1F39907A00ACFE67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Love2Code;
+				TargetAttributes = {
+					C8F0B0841F39907A00ACFE67 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7YZ84UFMU3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C8F0B0801F39907A00ACFE67 /* Build configuration list for PBXProject "FirebaseAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8F0B07C1F39907A00ACFE67;
+			productRefGroup = C8F0B0861F39907A00ACFE67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8F0B0841F39907A00ACFE67 /* FirebaseAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8F0B0831F39907A00ACFE67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F0B0981F39907B00ACFE67 /* LaunchScreen.storyboard in Resources */,
+				C8F0B0951F39907A00ACFE67 /* Assets.xcassets in Resources */,
+				C8F0B0931F39907A00ACFE67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8F0B0811F39907A00ACFE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F0B0901F39907A00ACFE67 /* ViewController.m in Sources */,
+				C8F0B08D1F39907A00ACFE67 /* AppDelegate.m in Sources */,
+				C8F0B08A1F39907A00ACFE67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8F0B0911F39907A00ACFE67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8F0B0921F39907A00ACFE67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8F0B0961F39907B00ACFE67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8F0B0971F39907B00ACFE67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8F0B09A1F39907B00ACFE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8F0B09B1F39907B00ACFE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8F0B09D1F39907B00ACFE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YZ84UFMU3;
+				INFOPLIST_FILE = FirebaseAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.love2code.FirebaseAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8F0B09E1F39907B00ACFE67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YZ84UFMU3;
+				INFOPLIST_FILE = FirebaseAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.love2code.FirebaseAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8F0B0801F39907A00ACFE67 /* Build configuration list for PBXProject "FirebaseAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F0B09A1F39907B00ACFE67 /* Debug */,
+				C8F0B09B1F39907B00ACFE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F0B09C1F39907B00ACFE67 /* Build configuration list for PBXNativeTarget "FirebaseAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F0B09D1F39907B00ACFE67 /* Debug */,
+				C8F0B09E1F39907B00ACFE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8F0B07D1F39907A00ACFE67 /* Project object */;
+}
